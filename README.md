@@ -15,8 +15,8 @@ A responsive food delivery website built using React.js where users can place or
 
 ## Screenshots:-
 <p>
-<img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1624987686/Hackathonmedia/Screenshot_2021-06-29_at_10.57.28_PM_oihdyn.png" width=480 />
-<img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1624987686/Hackathonmedia/Screenshot_2021-06-29_at_10.57.40_PM_wf0hdn.png" width=400 />
+<img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1624987686/Hackathonmedia/Screenshot_2021-06-29_at_10.57.28_PM_oihdyn.png" width=380 />
+<img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1624987686/Hackathonmedia/Screenshot_2021-06-29_at_10.57.40_PM_wf0hdn.png" width=300 />
 <p>  
   
   
