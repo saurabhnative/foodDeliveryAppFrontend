@@ -1,0 +1,112 @@
+    {
+        "results": [
+            {
+                "name": "Sundae",
+                "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624900282/Hackathonmedia/ice-cream-logo_dlijnc.png",
+                "subItemsData": {
+                    "name": "Tasty Sundae",
+                    "subItems": [
+                        {
+                            "name": "Gourmet ice cream",
+                            "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624900597/Hackathonmedia/ice-cream-1_zk7fys.jpg",
+                            "price": "450",
+                            "description": "Dressed with berries, strawberries and chocolate sauce added minutely. Made by blending fresh chocolate with milk and caramel."
+                        },
+                        {
+                            "name": "Ice Cream Sundae",
+                            "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624900911/Hackathonmedia/ice-cream-2_q8n4bc.jpg",
+                            "price": "550",
+                            "description": "White choco ice cream, black currant, berries, oreo and vanilla scoop"
+                        },
+                        {
+                            "name": "Waffle Ice Cream",
+                            "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624901179/Hackathonmedia/ice-cream-3_renepu.jpg",
+                            "price": "450",
+                            "description": "A thick base of waffle with choco chips, vanilla scoop on top glazed with chocolate syrup."
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Fast Food",
+                "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624901586/Hackathonmedia/burger-logo_wuqvcs.png",
+                "subItemsData": {
+                    "name": "Crispy Burgers",
+                    "subItems": [
+                        {
+                            "name": "Crispy Chicken Burger",
+                            "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624901855/Hackathonmedia/burger-1_aianhp.jpg",
+                            "price": "450",
+                            "description": "Old Skool Chicken Burger"
+                        },
+                        {
+                            "name": "Veg Zinger Burger",
+                            "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624901855/Hackathonmedia/burger-2_kdclv6.jpg",
+                            "price": "450",
+                            "description": "Spicy Paneer, Onion, Tomato, Mozerella Cheese"
+                        },
+                        {
+                            "name": "Classic Cheese Crispy Burger",
+                            "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624901856/Hackathonmedia/burger-3_nowpbp.jpg",
+                            "price": "550",
+                            "description": "Aged cheddar, sweet pickle, tomato, red onion and roco mayo."
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Donuts",
+                "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624902025/Hackathonmedia/donut_kv21km.png",
+                "subItemsData": {
+                    "name": "Donuts",
+                    "subItems": [
+                        {
+                            "name": "Chocolate Frosted Doughnut.",
+                            "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624902025/Hackathonmedia/donut_kv21km.png",
+                            "price": "450",
+                            "description": "Old Skool Chicken Burger"
+                        },
+                        {
+                            "name": "Cinnamon Twist Doughnut",
+                            "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624902025/Hackathonmedia/donut_kv21km.png",
+                            "price": "450",
+                            "description": "Spicy Paneer, Onion, Tomato, Mozerella Cheese"
+                        },
+                        {
+                            "name": "Strawberry Frosted Doughnut",
+                            "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624902025/Hackathonmedia/donut_kv21km.png",
+                            "price": "550",
+                            "description": "Aged cheddar, sweet pickle, tomato, red onion and roco mayo."
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Break fast",
+                "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624942423/Hackathonmedia/pancakes_n5jdbi.jpg",
+                "subItemsData": {
+                    "name": "Donuts",
+                    "subItems": [
+                        {
+                            "name": "Chocolate Frosted Doughnut.",
+                            "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624902025/Hackathonmedia/donut_kv21km.png",
+                            "price": "450",
+                            "description": "Old Skool Chicken Burger"
+                        },
+                        {
+                            "name": "Cinnamon Twist Doughnut",
+                            "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624902025/Hackathonmedia/donut_kv21km.png",
+                            "price": "450",
+                            "description": "Spicy Paneer, Onion, Tomato, Mozerella Cheese"
+                        },
+                        {
+                            "name": "Strawberry Frosted Doughnut",
+                            "image": "https://res.cloudinary.com/dk22rcdch/image/upload/v1624902025/Hackathonmedia/donut_kv21km.png",
+                            "price": "550",
+                            "description": "Aged cheddar, sweet pickle, tomato, red onion and roco mayo."
+                        }
+                    ]
+                }
+            }
+        ]
+    }
