@@ -1,7 +1,5 @@
-import foodItems from "./foodItems.json";
 export function FoodSubItems(props) {
-  console.log(props);
-  const foodItemsObject = foodItems.results.find((item) => {
+  const foodItemsObject = props.foodItems.find((item) => {
     return item.name === props.locationProps.match.params.foodCategory;
   });
   const foodItemsData = foodItemsObject.subItemsData.subItems.map((subItem) => {
@@ -36,7 +34,7 @@ export function FoodSubItems(props) {
   });
   return (
     <div>
-      <div className="h3 mt-1">{foodItemsObject.subItemsData.name}</div>
+      <div className="h3 mt-1">{foodItemsData && foodItemsData.name}</div>
       <hr></hr>
       <div>{foodItemsData}</div>
     </div>

@@ -1,25 +1,24 @@
 // import foodItems from "./foodItems.json";
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-export function FoodItems() {
-  const [foodItems, setFoodItems] = useState([]);
-  function fetchFoodItems() {
-    axios
-      .get(`${process.env.REACT_APP_SERVER_URL}/delivery/getAllItems`)
-      .then(function (response) {
-        // handle success
-        setFoodItems(response.data.results);
-      })
-      .catch(function (error) {
-        // handle error
-        console.log(error);
-      });
-  }
+export function FoodItems({ foodItems, setFoodItems }) {
   useEffect(() => {
+    function fetchFoodItems() {
+      axios
+        .get(`${process.env.REACT_APP_SERVER_URL}/delivery/getAllItems`)
+        .then(function (response) {
+          // handle success
+          setFoodItems(response.data.results);
+        })
+        .catch(function (error) {
+          // handle error
+          console.log(error);
+        });
+    }
     fetchFoodItems();
-  }, []);
+  }, [setFoodItems]);
   const settings = {
     dots: true,
     infinite: true,
@@ -30,7 +29,7 @@ export function FoodItems() {
   };
   const foodItemsObject = foodItems.map((foodItem) => {
     return (
-      <div className="mb-4">
+      <div className="mb-4" key={foodItem.name}>
         <Link to={`/foodSubItem/${foodItem.name}`} key={foodItem.name}>
           <div className="d-flex flex-column mx-4 food-item-container">
             <div>

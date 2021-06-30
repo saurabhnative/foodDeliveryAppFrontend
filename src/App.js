@@ -12,6 +12,7 @@ import { Cart } from "./components/Cart";
 import axios from "axios";
 function App() {
   const [cartItems, updateCart] = useState([]);
+  const [foodItems, setFoodItems] = useState([]);
   function fetchAllOrders() {
     axios
       .get(`${process.env.REACT_APP_SERVER_URL}/delivery/getAllOrders`)
@@ -63,13 +64,20 @@ function App() {
     <div className="App">
       <Router>
         <Header cartItems={cartItems} />
-        <Route path="/" exact component={FoodItems} />
+        <Route
+          path="/"
+          exact
+          render={(props) => (
+            <FoodItems foodItems={foodItems} setFoodItems={setFoodItems} />
+          )}
+        />
         <Route
           path="/foodSubItem/:foodCategory"
           render={(props) => (
             <FoodSubItems
               handleAddToCart={handleAddToCart}
               locationProps={props}
+              foodItems={foodItems}
             />
           )}
         />
