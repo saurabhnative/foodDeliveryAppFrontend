@@ -1,4 +1,7 @@
 <img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1625909570/GithubRepo/Screenshot_2021-07-10_at_3.02.32_PM_sjpksd.png" alt="Frontend part of food delivery project"/>
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/saurabhnative/foodDeliveryAppFrontend"/>
+</p>
 A responsive food delivery website built using React.js where users can place orders for food.
 
 ## Current features:-
