@@ -27,7 +27,7 @@ A responsive food delivery website built using React.js where users can place or
 ## Learning Resources:-
 1. Axios integration in react:- https://www.freecodecamp.org/news/how-to-use-axios-with-react/
 2. Bootstrap usage in react.js:- https://blog.logrocket.com/how-to-use-bootstrap-with-react-a354715d1121/
-3. React router tutorials:- https://www.tutorialspoint.com/reactjs/reactjs_router.html/
+3. React router tutorials:- https://www.tutorialspoint.com/reactjs/reactjs_router
 
 If you liked the repo or found it useful, please give it a star ⭐️
   
