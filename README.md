@@ -15,7 +15,7 @@ A responsive food delivery website built using React.js where users can place or
 ## Additional modules used for frontend app are as follows:-
 1. React router
 2. Axios
-3. Boostrap
+3. Bootstrap
 
 ## Screenshots:-
 <p>
