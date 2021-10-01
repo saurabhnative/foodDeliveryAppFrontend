@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Rishi22-Coding",
+      "name": "Saptarshi Patra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48274811?v=4",
+      "profile": "https://github.com/Rishi22-Coding",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "foodDeliveryAppFrontend",
+  "projectOwner": "saurabhnative",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
