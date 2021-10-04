@@ -20,7 +20,7 @@ function App() {
         // handle success
         updateCart(response.data.results);
       })
-      .catch(function (error) {
+      .catch(error  => {
         // handle error
         console.log(error);
       });
@@ -35,7 +35,7 @@ function App() {
       .then(function (response) {
         console.log(response);
       })
-      .catch(function (error) {
+      .catch(error=> {
         console.log(error);
       });
   }
@@ -53,7 +53,7 @@ function App() {
       .then(function (response) {
         console.log(response);
       })
-      .catch(function (error) {
+      .catch(error => {
         console.log(error);
       });
   }
