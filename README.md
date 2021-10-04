@@ -34,7 +34,8 @@ A responsive food delivery website built using React.js where users can place or
   * https://www.tutorialspoint.com/reactjs/reactjs_router
   * https://www.freecodecamp.org/news/react-router-in-5-minutes/
   * Learn react(edureka)[https://www.youtube.com/watch?v=VfRU1GjAf7I]
-If you liked the repo or found it useful, please give it a star ⭐️
+   
+  If you liked the repo or found it useful, please give it a star ⭐️
   
   
 ## Available Scripts
